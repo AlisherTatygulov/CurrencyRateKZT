@@ -54,7 +54,7 @@ public class TelegramBot extends TelegramLongPollingBot {
                                 "you want to know in relation to KZT." + "\n" +
                                 "For example: USD");
 
-                        System.out.println( currencyModel.getData().get("KZT"));
+
                     } catch (ParseException e) {
                         throw new RuntimeException("Unable to parse date");
                     } catch (java.text.ParseException e) {
